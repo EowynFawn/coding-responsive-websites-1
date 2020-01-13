@@ -312,7 +312,7 @@ input[type=button] {
   background-position: center;
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
+  flex-flow: row wrap;r
 }
 
 .features h2 {
