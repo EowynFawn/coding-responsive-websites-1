@@ -98,7 +98,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   */
 /* General Styles */
  
 html {
@@ -139,6 +138,15 @@ p {
 	font-size: .875em;
   line-height: 1.285;
 }
+
+img {
+  width: 100%;
+ }
+
+
+figure {
+  margin: 0;
+}
  
 address {
   font-style: normal;
@@ -149,7 +157,6 @@ address {
    margin: 50px 0;
  }
 
-  
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -171,6 +178,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -236,6 +251,10 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -258,7 +277,7 @@ aside {
   flex-flow: row wrap;
 }
 
-aside .form{
+aside .form {
   margin-top: 30px;
 }
 
@@ -288,6 +307,9 @@ input[type=button] {
 /* Features */
 
 .features {
+  background: url('../img/unplugged-retreat-features.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
